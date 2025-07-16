@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+  position: relative;
+}
+
+
+h1 {
+    background-color: grey;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #020331d7;
+    transform: scale(1.1);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 3rem;
+}
+
+#msg {
+    background-color: grey;
+    color: black;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(159, 159, 159);
+}
+.dark{
+  background-color: #121212;
+  color: white;
+}
+.dark #msg {
+  color: white;
+}  
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+#dark-mode {
+  position: absolute;
+  top: 2.5rem;
+  padding: 0.5rem ;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius:4rem ;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#dark-mode:hover {
+  background-color: #333;
+}
