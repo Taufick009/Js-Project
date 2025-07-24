@@ -18,7 +18,7 @@ A fun and interactive Rock Paper Scissors game built using **HTML**, **CSS**, an
 - with a sound effect for every move
 - dark mode toggle
 - has a reset button
-- the game gets over with a score of 5 who get's first
+- the game gets over who scores the first 5 points.
 
 ---
 
